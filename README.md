@@ -1,5 +1,17 @@
-# `Turborepo` Vite starter
+## If you find this helpful, kindly give it a ⭐. Follow me for more machine coding interview questions.
 
+# This repo is made using `Turborepo` Vite starter
+
+## Step-1: Cloning
+clone the repo
+
+## Step-3: Running all the apps parallely
+```
+npm i
+npm run dev
+```
+
+# About `Turborepo`
 This is an official starter Turborepo.
 
 ## Using this example
