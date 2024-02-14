@@ -1,0 +1,34 @@
+ContextApi
+Redux
+groupBy function
+promise
+interface
+Output based questions
+Some JS and TS questions
+Debounce
+TreeShaking
+Create a scalable component that handles a table kind of structure (columns, max row 10 per page) that adjusts with different columns and it also handles data and it also manages pagination. That component must work on any list data whether it is a users list location list or events list data etc. (Implementation approach with pseudo-code)
+
+
+JS problem solving skills, should do more hands-on with solving basic problem example custom sort, event loops etc. Use LeetCode to improve your expertise
+TS concepts should be clear. Able to answer use cases around types and Interfaces
+React knowledge in depth is required, should be able to answer how and why for everything. Best practices and performance optimizations.
+React unit test with RTL
+Redux expertise 
+
+Atlassian Interview Questions - Nancy Jain Ashish Yadav1 Manasi Patki
+Intro
+Questions about previous project - challenges, complexities, process etc
+Approaches to React performance improvisation
+Backend API - standards, best practices, must haves
+Context - use cases, useContext vs Consumer, Context scenario based questions
+React hooks - name few & explain their functioning
+JS Problem:
+var addSix = createBase(6);
+console.log(addSix(10)); // returns 16
+console.log(addSix(21)); // returns 27
+
+Brief discussion about past projects, challenges faced and how you solved it.
+Accessibility feature, code reviewing standards and performance improvement techniques
+React question to develop UI for Jira ticket with title and status dropdown. Implement action to get Jira ticket detail and status update using promise.Please find attached file for react question(Try to use useCallback, React.memo, lazy loading and other optimization techniques wherever it is required)
+

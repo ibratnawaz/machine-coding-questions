@@ -1,7 +1,22 @@
-import React, { createContext, Dispatch, SetStateAction, useEffect, useState } from 'react';
-import { Product } from './App';
+import { createContext, Dispatch, SetStateAction, useEffect, useState } from 'react';
 
-type initialState = {
+export const dummyProduct = {
+  brand: 'Apple',
+  category: 'smartphones',
+  description: 'An apple mobile which is nothing like apple',
+  discountPercentage: 12.96,
+  id: 1,
+  images: ['https://cdn.dummyjson.com/product-images/1/1.jpg'],
+  price: 549,
+  rating: 4.69,
+  stock: 94,
+  thumbnail: 'https://cdn.dummyjson.com/product-images/1/thumbnail.jpg',
+  title: 'iPhone 9',
+};
+
+export type Product = typeof dummyProduct;
+
+export type TInitialState = {
 	products: Product[];
 	startIndex: number;
 	paginationSize: number;
@@ -9,7 +24,7 @@ type initialState = {
 	setPaginationStartIndex: Dispatch<SetStateAction<number>>;
 };
 
-export const AppContext = createContext({} as initialState);
+export const AppContext = createContext({} as TInitialState);
 
 export const AppContextProvider = ({ children }: { children: JSX.Element }) => {
 	const [products, setProducts] = useState([] as Product[]);
