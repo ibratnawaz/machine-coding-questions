@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+.form {
+  display: flex;
+  gap: 12px;
+}
+
+.input-box {
+  height: 24px;
+  padding-inline: 4px;
+}
+
+.game-board {
+  margin-top: 24px;
+  display: grid;
+}
+
+.tile {
+  color: currentColor;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.game-over {
+  pointer-events: none;
+}
